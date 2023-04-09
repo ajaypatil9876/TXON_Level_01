@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+li{
+  list-style: none;
+}
+#navv{
+  margin-top: 5px;
+
+}
+#navv_ul{
+  display: flex;
+  justify-content: center;
+}
+.navv_li{
+  font-family: 'Barlow', sans-serif;
+  padding: 4px 22px;
+  font-size: 15px;
+}
+.navv_li:hover{
+     color: aqua;
+     background-color: black;
+     border-radius: 4px;
+}
+.wallpaper{
+    margin-top: 20px;
+     background-image: linear-gradient(to bottom,rgba(53, 53, 53, 0.751),rgba(53, 53, 53, 0.914)),url('wallpaper.jpg');
+     background-size: cover;
+     height: 500px;
+     position: relative;
+}
+#quote{
+  /* display: inline-block; */
+  text-align: center; 
+  padding-top: 170px;
+  font-family: 'Anuphan', sans-serif;
+  color: azure;
+    /* vertical-align: middle; */
+  /* vertical-align: middle; */
+  /* justify-content: center; */
+}
+#more{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 4px 30px;
+  font-size: 16px;
+  background-color: rgb(255, 68, 0);
+  border: 0;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-family: 'Alkatra', cursive;
+
+}
+#more:hover{
+  background-color: azure;
+  color: black;
+}
